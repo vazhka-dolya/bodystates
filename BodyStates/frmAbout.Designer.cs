@@ -60,22 +60,22 @@
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             // 
+            // htmlCredits
+            // 
+            resources.ApplyResources(this.htmlCredits, "htmlCredits");
+            this.htmlCredits.BackColor = System.Drawing.Color.Transparent;
+            this.htmlCredits.BaseStylesheet = null;
+            this.htmlCredits.Name = "htmlCredits";
+            // 
             // lbLicense
             // 
             resources.ApplyResources(this.lbLicense, "lbLicense");
             this.lbLicense.Name = "lbLicense";
             // 
-            // htmlCredits
-            // 
-            this.htmlCredits.BackColor = System.Drawing.Color.Transparent;
-            this.htmlCredits.BaseStylesheet = null;
-            resources.ApplyResources(this.htmlCredits, "htmlCredits");
-            this.htmlCredits.Name = "htmlCredits";
-            // 
             // bsLogo
             // 
-            this.bsLogo.Image = global::BodyStates.Properties.Resources.bodystates_logo;
             resources.ApplyResources(this.bsLogo, "bsLogo");
+            this.bsLogo.Image = global::BodyStates.Properties.Resources.bodystates_logo;
             this.bsLogo.Name = "bsLogo";
             this.bsLogo.TabStop = false;
             // 

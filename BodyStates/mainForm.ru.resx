@@ -137,7 +137,7 @@
     <value>Обычная и крылатая кепки</value>
   </data>
   <data name="btnFixBodyStateReset.Text" xml:space="preserve">
-    <value>Исправить сброс состояния тела</value>
+    <value>Исправить сброс состояний тела</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
