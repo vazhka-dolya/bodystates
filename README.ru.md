@@ -1,32 +1,33 @@
+**Прочитать эту страницу по-русски** | [Read this page in English](https://github.com/vazhka-dolya/bodystates/blob/main/README.md)
 # BodyStates
-This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM) that allows you to easily change the body states of eyes[^1], hands, and caps.
+Это простой адд-он для [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM), позволяющий Вам менять состояния глаз[^1], рук и кепок.
 <p align="center">
   <img src="https://github.com/vazhka-dolya/bodystates/blob/main/GitHubImages/ReadmeImage1.png" width="666"/>
 </p>
 
-# Installing and using
-1. Make sure you have the [latest version](https://github.com/projectcomet64/M64MM/releases/latest) of M64MM3 installed.
-2. Download the [latest version](https://github.com/vazhka-dolya/bodystates/releases/latest) of the add-on. It will be in a `.zip` archive.
-3. Extract the downloaded archive's contents[^2] into the root folder[^3] of M64MM3. If it prompts you to replace files, then do it.[^4]
-4. Use the **Fix Body State Reset** button in order to prevent the body states from being reset each time you try to change them.
-5. That's all.
-# Building prerequisites
+# Установка и использование
+1. Убедитесь, что у Вас установлена [последняя версия](https://github.com/projectcomet64/M64MM/releases/latest) M64MM3.
+2. Скачайте [последнюю версию](https://github.com/vazhka-dolya/bodystates/releases/latest) этого адд-она. Она будет в `.zip`-архиве.
+3. Распакуйте содержимое[^2] скачанного архива в коренную папку[^3] M64MM3. Если Вас запросит заменить файлы, то соглашайтесь[^4].
+4. Используйте кнопку **Исправить сброс состояний тела**, чтобы состояния тела не сбрасывались при попытке их изменить.
+5. Это всё.
+# Требования для компиляции
 <details>
-  <summary>Click here to view</summary>
+  <summary>Нажмите сюда, чтобы развернуть</summary>
   
 - Visual Studio 2022.
-- M64MM3's repository in a folder called M64MM outside of where this repository is.
-  - Example: if the `.sln` for BodyStates is in `C:/projects/BodyStates/BodyStates.sln`, the whole M64MM3 repository must be in `C:/projects/M64MM`.
-- If you're on Windows, then, before extracting the archives, make sure to right-click the archive, open **Properties** and see if you have an **Unblock** checkbox. If you do, tick it and press **Apply**. If you don't do this and the archive(s) remain blocked, you may run into issues.
-- *Depending on the circumstances*, you *may* have to do the following: go to **Menu** > **Tools** > **NuGet Package Manager** > **Package Manager Console** and enter `Install-Package HtmlRenderer.WinForms`. After that, go to **Menu** > **Project** > **Manage NuGet Packages…**, and make sure that both `HtmlRenderer.Core` and `HtmlRenderer.WinForms` are up-to-date.
+- Репозиторий M64MM3 в папке под названием `M64MM`, которая находится на одну директорию выше.
+  - Пример: если `.sln`-файл BodyStates — `C:/projects/BodyStates/BodyStates.sln`, то весь репозиторий M64MM3 должен быть в `C:/projects/M64MM`. Желательно, чтобы у путей не было кириллицы.
+- Если Вы на Windows, то перед тем, как распаковывать архивы, нажмите правой кнопкой мыши по ним, откройте **Свойства** и посмотрите есть ли опция **Разблокировать**. Если есть, то поставьте на ней галочки и нажмите **Применить**. Если Вы этого не сделаете и архив(-ы) останутся заблокированными, то Вы можете столкнуться с проблемами.
+- *В зависимости от ситуации*, Вам *возможно* нужно будет сделать следующее: зайдите в **Меню** > **Средства** > **Диспетчер пакетов NuGet** > **Консоль диспетчера пакетов** и введите `Install-Package HtmlRenderer.WinForms`. После этого, зайдите **Меню** > **Проект** > **Управление пакетами NuGet…** и убедитесь, что у `HtmlRenderer.Core` и `HtmlRenderer.WinForms` последнии версии.
 
 </details>
 
-# Credits
-- @GlitchyPSI ([his website](https://glitchypsi.xyz)) — a lot of help with how to make an add-on.
-  - This add-on is also based on [XStudio Mini](https://github.com/projectcomet64/xstudio-mini), which is made by him.
-- @SMG1OFFICIAL ([YouTube](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg)) — Kind of suggested me to make this add-on.
-[^1]: Not the eyes' textures themselves, but what eye texture is being displayed. If you want to use custom eye (and not only eye) textures, check out my other project, [katarakta](https://github.com/vazhka-dolya/katarakta)!
-[^2]: That means *all* the contents, including the `deps` folder. If it crashes when opening the About window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in M64MM's `deps` folder.
-[^3]: That's where `M64MM.exe` is located.
-[^4]: That shouldn't happen in the first place, but still.
+# Благодарность
+- @GlitchyPSI ([eго сайт](https://glitchypsi.xyz)) — огромная помощь с тем, как создавать адд-оны;
+  - этот адд-он основан на [XStudio MiNi](https://github.com/projectcomet64/xstudio-mini), который был сделан им;
+- @SMG1OFFICIAL ([YouTube](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg)) — в каком-то плане предложил мне создать этот адд-он.
+[^1]: Не сами текстуры глаз, а то, какая из текстур отображается. Если Вам нужна замена текстур глаз, то зацените мой другой проект, **[katarakta](https://github.com/vazhka-dolya/katarakta)**!
+[^2]: Это значит *всё* содержимое, включая папку `deps`. Если адд-он вылетает при попытке открыть окно **Об адд-оне**, то убедитесь, что у вас есть файлы `HtmlRenderer.dll` и `HtmlRenderer.WinForms.dll` в папке `deps` в M64MM3.
+[^3]: Это папка, где хранится `M64MM.exe`.
+[^4]: Этого вообще не должно произойти, но всё же.
