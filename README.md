@@ -16,7 +16,7 @@ This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectc
   <summary>Click here to view</summary>
   
 - Visual Studio 2022.
-- M64MM3's repository in a folder called M64MM outside of where this repository is.
+- M64MM3's repository in a folder called `M64MM` outside of where this repository is.
   - Example: if the `.sln` for BodyStates is in `C:/projects/BodyStates/BodyStates.sln`, the whole M64MM3 repository must be in `C:/projects/M64MM`.
 - If you're on Windows, then, before extracting the archives, make sure to right-click the archive, open **Properties** and see if you have an **Unblock** checkbox. If you do, tick it and press **Apply**. If you don't do this and the archive(s) remain blocked, you may run into issues.
 - *Depending on the circumstances*, you *may* have to do the following: go to **Menu** > **Tools** > **NuGet Package Manager** > **Package Manager Console** and enter `Install-Package HtmlRenderer.WinForms`. After that, go to **Menu** > **Project** > **Manage NuGet Packages…**, and make sure that both `HtmlRenderer.Core` and `HtmlRenderer.WinForms` are up-to-date.
