@@ -27,7 +27,7 @@ This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectc
 - @GlitchyPSI ([his website](https://glitchypsi.xyz)) — a lot of help with how to make an add-on.
   - This add-on is also based on [XStudio Mini](https://github.com/projectcomet64/xstudio-mini), which is made by him.
 - @SMG1OFFICIAL ([YouTube](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg)) — Kind of suggested me to make this add-on.
-[^1]: Not the eyes' textures themselves, but what eye texture is being displayed. If you want to use custom eye (and not only eye) textures, check out my other project, [katarakta](https://github.com/vazhka-dolya/katarakta)!
+[^1]: Not the eyes' textures themselves, but what eye texture is being displayed. If you want to use custom eye (and not only eye) textures, check out my other project, **[katarakta](https://github.com/vazhka-dolya/katarakta)**!
 [^2]: That means *all* the contents, including the `deps` folder. If it crashes when opening the About window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in M64MM's `deps` folder.
 [^3]: That's where `M64MM.exe` is located.
 [^4]: That shouldn't happen in the first place, but still.
