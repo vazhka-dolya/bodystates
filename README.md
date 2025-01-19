@@ -9,8 +9,7 @@ This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectc
 1. Make sure you have the [latest version](https://github.com/projectcomet64/M64MM/releases/latest) of M64MM3 installed.
 2. Download the [latest version](https://github.com/vazhka-dolya/bodystates/releases/latest) of the add-on. It will be in a `.zip` archive.
 3. Extract the downloaded archive's contents[^2] into the root folder[^3] of M64MM3. If it prompts you to replace files, then do it.
-4. Use the **Fix Body State Reset** button in order to prevent the body states from being reset each time you try to change them.
-5. That's all.
+4. That's all.
 # Building prerequisites
 <details>
   <summary>Click here to view</summary>
