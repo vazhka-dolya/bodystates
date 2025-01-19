@@ -1,8 +1,9 @@
-**Прочитать эту страницу по-русски** | [Read this page in English](https://github.com/vazhka-dolya/bodystates/blob/main/README.md)
+**Прочитать эту страницу по-русски** · [Посмотреть список изменений в обновлениях по-русски]() | [Read this page in English](https://github.com/vazhka-dolya/bodystates/blob/main/README.md)
+
 # BodyStates
 Это простой адд-он для [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM), позволяющий Вам менять состояния глаз[^1], рук и кепок.
 <p align="center">
-  <img src="https://github.com/vazhka-dolya/bodystates/blob/main/GitHubImages/ReadmeImage3_rus.png" width="666"/>
+  <img src="https://github.com/vazhka-dolya/bodystates/blob/main/GitHubImages/ReadmeImage3_rus2.png" width="666"/>
 </p>
 
 # Установка и использование
