@@ -1,4 +1,4 @@
-[Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/bodystates/blob/main/README.ru.md) | **Read this page in English**
+[Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/bodystates/blob/main/README.ru.md) · [Посмотреть список изменений в обновлениях по-русски](https://github.com/vazhka-dolya/bodystates/blob/main/Changelog.ru.md) | **Read this page in English**
 # BodyStates
 This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM) that allows you to easily change the body states of eyes,[^1] hands, and caps.
 <p align="center">
