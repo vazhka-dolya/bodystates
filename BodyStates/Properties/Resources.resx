@@ -121,9 +121,6 @@
   <data name="hands6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hands6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="powerup4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\powerup4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="eyes2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eyes2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,11 +145,14 @@
   <data name="cap2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cap2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eyes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="powerup3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerup3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hands5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hands5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyes8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eyes4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eyes4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +160,8 @@
   <data name="eyes6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eyes6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eyes8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="powerup4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerup4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="powerup2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\powerup2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,25 +169,28 @@
   <data name="fixBodyStateReset" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fixBodyStateReset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hands2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hands2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="eyes9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eyes9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="powerup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\powerup1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="powerup3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\powerup3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eyes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eyes3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eyes3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bodystates_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bodystates_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hands4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hands4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hands2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hands2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bodystates_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bodystates_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cap4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cap4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

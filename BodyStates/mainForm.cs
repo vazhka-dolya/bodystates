@@ -22,9 +22,30 @@ namespace BodyStates
             InitializeComponent();
         }
 
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        private byte GetOneByte(int address)
         {
-            about.ShowDialog();
+            uint FourBytes = BitConverter.ToUInt32(Core.ReadBytes(Core.BaseAddress + address, 4), 0);
+            byte[] bytes = BitConverter.GetBytes(FourBytes);
+            return bytes[0];
+        }
+
+        private byte[] GetOneByteAsArray(int address)
+        {
+            uint FourBytes = BitConverter.ToUInt32(Core.ReadBytes(Core.BaseAddress + address, 4), 0);
+            byte[] bytes = BitConverter.GetBytes(FourBytes);
+            return new byte[] { bytes[0] };
+        }
+
+        private void CheckFixCheckBox()
+        {
+            switch (chAutoFixBodyStateReset.Checked)
+            {
+                case true:
+                    FixResetBodyState(); // Automatically fix body state reset if the checkbox for that is on and one of the buttons is pressed
+                    break;
+                default:
+                    break;
+            }
         }
 
         public static void FixResetBodyState()
@@ -53,15 +74,48 @@ namespace BodyStates
             Core.WriteBytes(Core.BaseAddress + 0x254338 + 84, BitConverter.GetBytes(0x27BD0008));
         }
 
+        public void SetEyesState(int value)
+        {
+            CheckFixCheckBox();
+            byte[] data = BitConverter.GetBytes(value);
+            byte[] CapNMState = GetOneByteAsArray(0x33B3B7); // Get the Mormal/Wing cap address
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B6, data);
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, CapNMState); // Reapply the Normal/Wing cap value because changing hands/eyes reset that for some reason
+        }
+
+        public void SetHandsState(int value)
+        {
+            CheckFixCheckBox();
+            byte[] data = BitConverter.GetBytes(value);
+            byte[] CapNMState = GetOneByteAsArray(0x33B3B7); // Get the Normal/Wing cap address
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B5, data);
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, CapNMState); // Reapply the Normal/Wing cap value because changing hands/eyes reset that for some reason
+        }
+
+        public void SetCapVMState(int value)
+        {
+            CheckFixCheckBox(); // Even though the Vanish/Metal cap variable doesn't get reset, there is still the issue that Mario's cap may for some reason disappear if there is no reset fix
+            byte[] data = BitConverter.GetBytes(value * 2);
+            Core.WriteBytes(Core.BaseAddress + 0x33B174, data);
+        }
+
+        public void SetCapNWState(int value)
+        {
+            CheckFixCheckBox();
+            byte[] data = BitConverter.GetBytes(value);
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, data);
+        }
+
+        // All of the following is just methods for the UI
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            about.ShowDialog();
+        }
+
         private void btnFixBodyStateReset_Click(object sender, EventArgs e)
         {
             FixResetBodyState();
-        }
-
-        public void SetEyesState(int value)
-        {
-            byte[] data = BitConverter.GetBytes(value);
-            Core.WriteBytes(Core.BaseAddress + 0x33B3B6, data);
         }
 
         private void btnEyes1_Click(object sender, EventArgs e)
@@ -109,12 +163,6 @@ namespace BodyStates
             SetEyesState(8);
         }
 
-        public void SetHandsState(int value)
-        {
-            byte[] data = BitConverter.GetBytes(value);
-            Core.WriteBytes(Core.BaseAddress + 0x33B3B5, data);
-        }
-
         private void btnHands1_Click(object sender, EventArgs e)
         {
             SetHandsState(0);
@@ -145,12 +193,6 @@ namespace BodyStates
             SetHandsState(5);
         }
 
-        public void SetCapVMState(int value)
-        {
-            byte[] data = BitConverter.GetBytes(value * 2);
-            Core.WriteBytes(Core.BaseAddress + 0x33B174, data);
-        }
-
         private void btnCapVM1_Click(object sender, EventArgs e)
         {
             SetCapVMState(0);
@@ -171,35 +213,6 @@ namespace BodyStates
             SetCapVMState(3);
         }
 
-        public void SetCapNWState(int value)
-        {
-            uint CapVMState_ = BitConverter.ToUInt32(Core.ReadBytes(Core.BaseAddress + 0x33B174, 4), 0);
-            byte[] bytes = BitConverter.GetBytes(CapVMState_);
-            byte CapVMState = bytes[0];
-            switch (CapVMState)
-            {
-                case 0:
-                    break;
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    break;
-                case 6:
-                    break;
-                default:
-                    Core.WriteBytes(Core.BaseAddress + 0x33B174, BitConverter.GetBytes(0x00));
-                    break;
-            }
-            byte[] data = BitConverter.GetBytes(value);
-            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, data);
-        }
-
         private void btnCapNW1_Click(object sender, EventArgs e)
         {
             SetCapNWState(0);
@@ -213,6 +226,11 @@ namespace BodyStates
         private void btnCapNW3_Click(object sender, EventArgs e)
         {
             SetCapNWState(2);
+        }
+
+        private void btnCapNW4_Click(object sender, EventArgs e)
+        {
+            SetCapNWState(3);
         }
     }
 }
