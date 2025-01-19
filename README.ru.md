@@ -2,13 +2,13 @@
 # BodyStates
 Это простой адд-он для [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM), позволяющий Вам менять состояния глаз[^1], рук и кепок.
 <p align="center">
-  <img src="https://github.com/vazhka-dolya/bodystates/blob/main/GitHubImages/ReadmeImage2_rus.png" width="666"/>
+  <img src="https://github.com/vazhka-dolya/bodystates/blob/main/GitHubImages/ReadmeImage3_rus.png" width="666"/>
 </p>
 
 # Установка и использование
 1. Убедитесь, что у Вас установлена [последняя версия](https://github.com/projectcomet64/M64MM/releases/latest) M64MM3.
 2. Скачайте [последнюю версию](https://github.com/vazhka-dolya/bodystates/releases/latest) этого адд-она. Она будет в `.zip`-архиве.
-3. Распакуйте содержимое[^2] скачанного архива в коренную папку[^3] M64MM3. Если Вас запросит заменить файлы, то соглашайтесь[^4].
+3. Распакуйте содержимое[^2] скачанного архива в коренную папку[^3] M64MM3. Если Вас запросит заменить файлы, то соглашайтесь.
 4. Используйте кнопку **Исправить сброс состояний тела**, чтобы состояния тела не сбрасывались при попытке их изменить.
 5. Это всё.
 # Требования для компиляции
@@ -29,5 +29,4 @@
 - @SMG1OFFICIAL ([YouTube](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg)) — в каком-то плане предложил мне создать этот адд-он.
 [^1]: Не сами текстуры глаз, а то, какая из текстур отображается. Если Вам нужна замена текстур глаз, то зацените мой другой проект, **[katarakta](https://github.com/vazhka-dolya/katarakta)**!
 [^2]: Это значит *всё* содержимое, включая папку `deps`. Если адд-он вылетает при попытке открыть окно **Об адд-оне**, то убедитесь, что у вас есть файлы `HtmlRenderer.dll` и `HtmlRenderer.WinForms.dll` в папке `deps` в M64MM3.
-[^3]: Это папка, где хранится `M64MM.exe`.
-[^4]: Этого вообще не должно произойти, но всё же.
+[^3]: Это та же папка, где хранится и `M64MM.exe`.
