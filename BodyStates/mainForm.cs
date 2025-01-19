@@ -101,6 +101,28 @@ namespace BodyStates
 
         public void SetCapNWState(int value)
         {
+            byte CapVMState = GetOneByte(0x33B174);
+            switch (CapVMState) // If this number is not 0–6, then it's possible that trying to change the Normal/Wing cap will do nothing
+            {
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+                default:
+                    Core.WriteBytes(Core.BaseAddress + 0x33B174, BitConverter.GetBytes(0x00));
+                    break;
+            }
+
             CheckFixCheckBox();
             byte[] data = BitConverter.GetBytes(value);
             Core.WriteBytes(Core.BaseAddress + 0x33B3B7, data);
