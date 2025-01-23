@@ -22,18 +22,9 @@ namespace BodyStates
             InitializeComponent();
         }
 
-        private byte GetOneByte(int address)
-        {
-            uint FourBytes = BitConverter.ToUInt32(Core.ReadBytes(Core.BaseAddress + address, 4), 0);
-            byte[] bytes = BitConverter.GetBytes(FourBytes);
-            return bytes[0];
-        }
-
         private byte[] GetOneByteAsArray(int address)
         {
-            uint FourBytes = BitConverter.ToUInt32(Core.ReadBytes(Core.BaseAddress + address, 4), 0);
-            byte[] bytes = BitConverter.GetBytes(FourBytes);
-            return new byte[] { bytes[0] };
+            return new byte[] { Core.ReadBytes(Core.BaseAddress + address, 1)[0] };
         }
 
         private void CheckFixCheckBox()
@@ -78,18 +69,20 @@ namespace BodyStates
         {
             CheckFixCheckBox();
             byte[] data = BitConverter.GetBytes(value);
-            byte[] CapNMState = GetOneByteAsArray(0x33B3B7); // Get the Mormal/Wing cap address
+            byte[] CapNMState = GetOneByteAsArray(0x33B3B7); // Get the Mormal/Wing cap state
             Core.WriteBytes(Core.BaseAddress + 0x33B3B6, data);
-            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, CapNMState); // Reapply the Normal/Wing cap value because changing hands/eyes reset that for some reason
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, CapNMState); // Reapply the Normal/Wing cap state because changing hands/eyes reset that for some reason
         }
 
         public void SetHandsState(int value)
         {
             CheckFixCheckBox();
             byte[] data = BitConverter.GetBytes(value);
-            byte[] CapNMState = GetOneByteAsArray(0x33B3B7); // Get the Normal/Wing cap address
+            byte[] CapNMState = GetOneByteAsArray(0x33B3B7); // Get the Normal/Wing cap state
+            byte[] EyesState = GetOneByteAsArray(0x33B3B6); // Get the Eyes' state
             Core.WriteBytes(Core.BaseAddress + 0x33B3B5, data);
-            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, CapNMState); // Reapply the Normal/Wing cap value because changing hands/eyes reset that for some reason
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B6, EyesState); // Reapply the Eyes' state because they seem to reset for some reason
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, CapNMState); // Reapply the Normal/Wing cap state because changing hands/eyes also reset that for some reason
         }
 
         public void SetCapVMState(int value)
@@ -101,8 +94,8 @@ namespace BodyStates
 
         public void SetCapNWState(int value)
         {
-            byte CapVMState = GetOneByte(0x33B174);
-            switch (CapVMState) // If this number is not 0–6, then it's possible that trying to change the Normal/Wing cap will do nothing
+            byte[] CapVMState = GetOneByteAsArray(0x33B174);
+            switch (CapVMState[0]) // If this number is not 0–6, then it's possible that trying to change the Normal/Wing cap will do nothing
             {
                 case 0:
                     break;

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("BodyStates")]
-[assembly: AssemblyDescription("Various tweaks that may come in handy for Super Mario 64 machinimas.")]
+[assembly: AssemblyDescription("Change Mario's body states (hand states, eye states, and cap states).")]
 [assembly: AssemblyConfiguration("")]
 //[assembly: AssemblyCompany("Project Comet")]
 [assembly: AssemblyProduct("BodyStates")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // Puede especificar todos los valores o utilizar los números de compilación y de revisión predeterminados
 // mediante el carácter '*', como se muestra a continuación:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.1")]
-[assembly: AssemblyFileVersion("1.1.1")]
+[assembly: AssemblyVersion("1.1.2")]
+[assembly: AssemblyFileVersion("1.1.2")]
