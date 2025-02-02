@@ -26,7 +26,7 @@ This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectc
 - @GlitchyPSI ([his website](https://glitchypsi.xyz)) — a lot of help with how to make an add-on.
   - This add-on is also based on [XStudio MiNi](https://github.com/projectcomet64/xstudio-mini), which is made by him.
 - @SMG1OFFICIAL ([YouTube](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg)) — kind of suggested me to make this add-on.
-### “If I use BodyStates in my video, do I have to credit you?”
+### “If I use BodyStates for my work, do I have to credit you?”
 Credit is highly appreciated, but completely optional!
 [^1]: Not the eyes' textures themselves, but what eye texture is being displayed. If you want to use custom eye (and not only eye) textures, check out my other project, **[katarakta](https://github.com/vazhka-dolya/katarakta)**!
 [^2]: That means *all* the contents, including the `deps` folder. If it crashes when opening the About window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in M64MM's `deps` folder.
