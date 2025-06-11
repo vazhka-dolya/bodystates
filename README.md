@@ -10,6 +10,9 @@ This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectc
 2. Download the [latest version](https://github.com/vazhka-dolya/bodystates/releases/latest) of the add-on. It will be in a `.zip` archive.
 3. Extract the downloaded archive's contents[^2] into the root folder[^3] of M64MM3. If it prompts you to replace files, then do it.
 4. That's all.
+
+If the add-on refuses to work for you: launch the game, go to **Options** > **Settings** > **Config: (ROM name)**[^4] > **Recompiler**, and make sure **Start changed** is enabled.
+
 # Building prerequisites
 <details>
   <summary>Click here to view</summary>
@@ -31,3 +34,4 @@ Credit is highly appreciated, but completely optional!
 [^1]: Not the eyes' textures themselves, but what eye texture is being displayed. If you want to use custom eye (and not only eye) textures, check out my other project, **[katarakta](https://github.com/vazhka-dolya/katarakta)**!
 [^2]: That means *all* the contents, including the `deps` folder. If it crashes when opening the About window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in M64MM's `deps` folder.
 [^3]: That's the same folder where `M64MM.exe` is located.
+[^4]: The ROM name is usually `SUPER MARIO 64`, but it may be different if it's a ROM hack.
