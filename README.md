@@ -11,7 +11,7 @@ This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectc
 3. Extract the downloaded archive's contents[^2] into the root folder[^3] of M64MM3. If it prompts you to replace files, then do it.
 4. That's all.
 
-If the add-on refuses to work for you: launch the game, go to **Options** > **Settings** > **Config: (ROM name)**[^4] > **Recompiler**, and make sure **Start changed** is enabled.
+If the add-on refuses to work for you: launch the game, go to **Options** > **Settings…** > **Config: (ROM name)**[^4] > **Recompiler**, and make sure **Start changed** is enabled.
 
 # Building prerequisites
 <details>
