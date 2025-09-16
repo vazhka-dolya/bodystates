@@ -138,10 +138,10 @@
     <value>NoControl</value>
   </data>
   <data name="htmlCredits.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 145</value>
+    <value>285, 171</value>
   </data>
   <data name="htmlCredits.Text" xml:space="preserve">
-    <value>&lt;p style="font-size:11px;font-family:'Microsoft Sans Serif'"&gt;От @DanilAstroid, или же vazhka-dolya (&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;br&gt;&lt;br&gt;Выражается благодарность:&lt;br&gt;• @GlitchyPSI (&lt;a href="https://glitchypsi.xyz"&gt;его сайт&lt;/a&gt;) — огромная помощь с тем, как&lt;br&gt;   создавать адд-оны;&lt;br&gt;• • этот адд-он также основан на &lt;a href="https://github.com/projectcomet64/xstudio-mini"&gt;XStudio MiNi&lt;/a&gt;,&lt;br&gt;      который был сделан им;&lt;br&gt;• @SMG1OFFICIAL (&lt;a href="https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg"&gt;YouTube&lt;/a&gt;) — в каком-то плане&lt;br&gt;   предложил мне создать этот адд-он.&lt;/p&gt;</value>
+    <value>&lt;p style="font-size:11px;font-family:'Microsoft Sans Serif'"&gt;От @DanilAstroid, или же vazhka-dolya (&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;br&gt;&lt;br&gt;Выражается благодарность:&lt;br&gt;• @GlitchyPSI (&lt;a href="https://glitchypsi.xyz"&gt;его сайт&lt;/a&gt;) — огромная помощь с тем, как&lt;br&gt;   создавать адд-оны;&lt;br&gt;• • этот адд-он также основан на &lt;a href="https://github.com/projectcomet64/xstudio-mini"&gt;XStudio MiNi&lt;/a&gt;,&lt;br&gt;      который был сделан им;&lt;br&gt;• @SMG1OFFICIAL (&lt;a href="https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg"&gt;YouTube&lt;/a&gt;) — в каком-то плане&lt;br&gt;   предложил мне создать этот адд-он;&lt;br&gt; • @sm64rise (&lt;a href="https://www.youtube.com/channel/UCY09vjVz1t8QssTqeeRnjdg"&gt;YouTube&lt;/a&gt;) — оригинальный код для смены&lt;br&gt;состояний тела.&lt;/p&gt;</value>
   </data>
   <data name="lbLicense.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>

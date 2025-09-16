@@ -118,79 +118,118 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="hands6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hands6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eyes2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hands1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hands1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hands3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hands3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cap1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cap3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cap3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eyes5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eyes7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cap2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cap2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="powerup3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\powerup3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="hands5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hands5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eyes8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eyes4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="updates_unknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates_unknown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eyes6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eyes6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="powerup4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\powerup4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hands4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hands4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerup3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerup3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cap2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cap2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyes7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates_unknown_string" xml:space="preserve">
+    <value>Can't check for updates</value>
   </data>
   <data name="powerup2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\powerup2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fixBodyStateReset" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fixBodyStateReset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="updates_outdated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates_outdated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hands2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hands2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cap3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cap3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eyes9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="powerup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\powerup1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hands3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hands3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eyes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eyes1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eyes3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eyes3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eyes9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerup4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerup4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hands2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hands2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates_latest_string" xml:space="preserve">
+    <value>Up-to-date</value>
+  </data>
+  <data name="eyes4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerup1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates_latest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates_latest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyes8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hands6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hands6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fixBodyStateReset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fixBodyStateReset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cap1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates_outdated_string" xml:space="preserve">
+    <value>Update available!</value>
+  </data>
+  <data name="hands1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hands1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyes2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bodystates_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bodystates_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hands4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hands4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cap4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cap4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyes3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyes5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyes5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updates_checking_string" xml:space="preserve">
+    <value>Checking…</value>
+  </data>
+  <data name="updates_unknown_elaborate" xml:space="preserve">
+    <value>Could not check if you have the latest version.
+
+Possible reasons:
+• The add-on has no access to the internet.
+• You've checked for updates too frequently (can lead to temporarily exceeding GitHub's API rate limit).
+
+Would you like to open the latest release's page on GitHub in your browser?</value>
+  </data>
+  <data name="m64mm_open" xml:space="preserve">
+    <value>Open BodyStates</value>
+  </data>
+  <data name="m64mm_desc" xml:space="preserve">
+    <value>Change Mario's body states (hand states, eye states, and cap states).</value>
   </data>
 </root>

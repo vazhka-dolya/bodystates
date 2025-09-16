@@ -117,1031 +117,455 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 20</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;btnEyes9.Name" xml:space="preserve">
-    <value>btnEyes9</value>
-  </data>
-  <data name="&gt;&gt;btnEyes9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes9.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes9.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnEyes8.Name" xml:space="preserve">
-    <value>btnEyes8</value>
-  </data>
-  <data name="&gt;&gt;btnEyes8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes8.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes8.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnEyes7.Name" xml:space="preserve">
-    <value>btnEyes7</value>
-  </data>
-  <data name="&gt;&gt;btnEyes7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes7.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes7.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnEyes6.Name" xml:space="preserve">
-    <value>btnEyes6</value>
-  </data>
-  <data name="&gt;&gt;btnEyes6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes6.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes6.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnEyes5.Name" xml:space="preserve">
-    <value>btnEyes5</value>
-  </data>
-  <data name="&gt;&gt;btnEyes5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes5.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnEyes4.Name" xml:space="preserve">
-    <value>btnEyes4</value>
-  </data>
-  <data name="&gt;&gt;btnEyes4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes4.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes4.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnEyes3.Name" xml:space="preserve">
-    <value>btnEyes3</value>
-  </data>
-  <data name="&gt;&gt;btnEyes3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes3.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes3.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnEyes2.Name" xml:space="preserve">
-    <value>btnEyes2</value>
-  </data>
-  <data name="&gt;&gt;btnEyes2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes2.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btnEyes1.Name" xml:space="preserve">
-    <value>btnEyes1</value>
-  </data>
-  <data name="&gt;&gt;btnEyes1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes1.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="groupEyes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 27</value>
-  </data>
-  <data name="groupEyes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 60</value>
-  </data>
-  <data name="groupEyes.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="groupEyes.Text" xml:space="preserve">
-    <value>Eyes</value>
-  </data>
-  <data name="&gt;&gt;groupEyes.Name" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;groupEyes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupEyes.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupEyes.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>309, 278</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCapVM2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnEyes9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="btnEyes9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 19</value>
-  </data>
-  <data name="btnEyes9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes9.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;btnEyes9.Name" xml:space="preserve">
-    <value>btnEyes9</value>
-  </data>
-  <data name="&gt;&gt;btnEyes9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes9.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes9.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnEyes8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEyes8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 19</value>
-  </data>
-  <data name="btnEyes8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes8.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;btnEyes8.Name" xml:space="preserve">
-    <value>btnEyes8</value>
-  </data>
-  <data name="&gt;&gt;btnEyes8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes8.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes8.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnEyes7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEyes7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 19</value>
-  </data>
-  <data name="btnEyes7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes7.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;btnEyes7.Name" xml:space="preserve">
-    <value>btnEyes7</value>
-  </data>
-  <data name="&gt;&gt;btnEyes7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes7.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes7.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnEyes6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEyes6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 19</value>
-  </data>
-  <data name="btnEyes6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes6.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;btnEyes6.Name" xml:space="preserve">
-    <value>btnEyes6</value>
-  </data>
-  <data name="&gt;&gt;btnEyes6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes6.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes6.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnEyes5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEyes5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 19</value>
-  </data>
-  <data name="btnEyes5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes5.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;btnEyes5.Name" xml:space="preserve">
-    <value>btnEyes5</value>
-  </data>
-  <data name="&gt;&gt;btnEyes5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes5.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnEyes4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEyes4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 19</value>
-  </data>
-  <data name="btnEyes4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes4.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btnEyes4.Name" xml:space="preserve">
-    <value>btnEyes4</value>
-  </data>
-  <data name="&gt;&gt;btnEyes4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes4.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes4.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnEyes3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEyes3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 19</value>
-  </data>
-  <data name="btnEyes3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes3.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btnEyes3.Name" xml:space="preserve">
-    <value>btnEyes3</value>
-  </data>
-  <data name="&gt;&gt;btnEyes3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes3.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes3.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnEyes2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEyes2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 19</value>
-  </data>
-  <data name="btnEyes2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnEyes2.Name" xml:space="preserve">
-    <value>btnEyes2</value>
-  </data>
-  <data name="&gt;&gt;btnEyes2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes2.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="btnEyes1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEyes1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 19</value>
-  </data>
-  <data name="btnEyes1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnEyes1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnEyes1.Name" xml:space="preserve">
-    <value>btnEyes1</value>
-  </data>
-  <data name="&gt;&gt;btnEyes1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEyes1.Parent" xml:space="preserve">
-    <value>groupEyes</value>
-  </data>
-  <data name="&gt;&gt;btnEyes1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;btnHands6.Name" xml:space="preserve">
-    <value>btnHands6</value>
-  </data>
-  <data name="&gt;&gt;btnHands6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands6.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnHands5.Name" xml:space="preserve">
-    <value>btnHands5</value>
-  </data>
-  <data name="&gt;&gt;btnHands5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands5.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnHands4.Name" xml:space="preserve">
-    <value>btnHands4</value>
-  </data>
-  <data name="&gt;&gt;btnHands4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands4.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnHands3.Name" xml:space="preserve">
-    <value>btnHands3</value>
-  </data>
-  <data name="&gt;&gt;btnHands3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands3.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnHands2.Name" xml:space="preserve">
-    <value>btnHands2</value>
-  </data>
-  <data name="&gt;&gt;btnHands2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands2.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnHands1.Name" xml:space="preserve">
-    <value>btnHands1</value>
-  </data>
-  <data name="&gt;&gt;btnHands1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands1.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="groupHands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 93</value>
-  </data>
-  <data name="groupHands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 60</value>
-  </data>
-  <data name="groupHands.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="groupHands.Text" xml:space="preserve">
-    <value>Hands</value>
-  </data>
-  <data name="&gt;&gt;groupHands.Name" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;groupHands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupHands.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupHands.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnHands6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnHands6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 19</value>
-  </data>
-  <data name="btnHands6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnHands6.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;btnHands6.Name" xml:space="preserve">
-    <value>btnHands6</value>
-  </data>
-  <data name="&gt;&gt;btnHands6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands6.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnHands5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnHands5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 19</value>
-  </data>
-  <data name="btnHands5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnHands5.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;btnHands5.Name" xml:space="preserve">
-    <value>btnHands5</value>
-  </data>
-  <data name="&gt;&gt;btnHands5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands5.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnHands4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnHands4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 19</value>
-  </data>
-  <data name="btnHands4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnHands4.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btnHands4.Name" xml:space="preserve">
-    <value>btnHands4</value>
-  </data>
-  <data name="&gt;&gt;btnHands4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands4.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnHands3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnHands3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 19</value>
-  </data>
-  <data name="btnHands3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnHands3.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btnHands3.Name" xml:space="preserve">
-    <value>btnHands3</value>
-  </data>
-  <data name="&gt;&gt;btnHands3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands3.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnHands2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnHands2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 19</value>
-  </data>
-  <data name="btnHands2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnHands2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnHands2.Name" xml:space="preserve">
-    <value>btnHands2</value>
-  </data>
-  <data name="&gt;&gt;btnHands2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands2.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnHands1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnHands1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 19</value>
-  </data>
-  <data name="btnHands1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnHands1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnHands1.Name" xml:space="preserve">
-    <value>btnHands1</value>
-  </data>
-  <data name="&gt;&gt;btnHands1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHands1.Parent" xml:space="preserve">
-    <value>groupHands</value>
-  </data>
-  <data name="&gt;&gt;btnHands1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM4.Name" xml:space="preserve">
-    <value>btnCapVM4</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM4.Parent" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM3.Name" xml:space="preserve">
-    <value>btnCapVM3</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM3.Parent" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM2.Name" xml:space="preserve">
-    <value>btnCapVM2</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM2.Parent" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM1.Name" xml:space="preserve">
-    <value>btnCapVM1</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM1.Parent" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupCapVM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 159</value>
-  </data>
-  <data name="groupCapVM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 60</value>
-  </data>
-  <data name="groupCapVM.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="groupCapVM.Text" xml:space="preserve">
-    <value>Vanish and Metal Caps</value>
-  </data>
-  <data name="&gt;&gt;groupCapVM.Name" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;groupCapVM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupCapVM.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupCapVM.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnCapVM4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCapVM4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 19</value>
-  </data>
-  <data name="btnCapVM4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnCapVM4.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM4.Name" xml:space="preserve">
-    <value>btnCapVM4</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM4.Parent" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM4.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="btnCapVM3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnCapVM3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 19</value>
-  </data>
-  <data name="btnCapVM3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnCapVM3.TabIndex" type="System.Int32, mscorlib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnEyes6.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;btnCapVM3.Name" xml:space="preserve">
-    <value>btnCapVM3</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM3.Parent" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnCapVM2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCapVM2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 19</value>
-  </data>
-  <data name="btnCapVM2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnHands5.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 31</value>
-  </data>
-  <data name="btnCapVM2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM2.Name" xml:space="preserve">
-    <value>btnCapVM2</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM2.Parent" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnCapVM1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCapVM1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 19</value>
-  </data>
-  <data name="btnCapVM1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnCapVM1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM1.Name" xml:space="preserve">
-    <value>btnCapVM1</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM1.Parent" xml:space="preserve">
-    <value>groupCapVM</value>
-  </data>
-  <data name="&gt;&gt;btnCapVM1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW4.Name" xml:space="preserve">
-    <value>btnCapNW4</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW4.Parent" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW3.Name" xml:space="preserve">
-    <value>btnCapNW3</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW3.Parent" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW2.Name" xml:space="preserve">
-    <value>btnCapNW2</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW2.Parent" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW1.Name" xml:space="preserve">
-    <value>btnCapNW1</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW1.Parent" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupCapNW.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 225</value>
-  </data>
-  <data name="groupCapNW.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 60</value>
-  </data>
-  <data name="groupCapNW.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="groupCapNW.Text" xml:space="preserve">
-    <value>Normal Cap and Wing Cap</value>
-  </data>
-  <data name="&gt;&gt;groupCapNW.Name" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;groupCapNW.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupCapNW.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupCapNW.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnCapNW4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCapNW4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 19</value>
-  </data>
-  <data name="btnCapNW4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnCapNW4.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW4.Name" xml:space="preserve">
-    <value>btnCapNW4</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW4.Parent" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnCapNW3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCapNW3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 19</value>
-  </data>
-  <data name="btnCapNW3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnCapNW3.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW3.Name" xml:space="preserve">
-    <value>btnCapNW3</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW3.Parent" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnCapNW2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCapNW2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 19</value>
-  </data>
-  <data name="btnCapNW2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnCapNW2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW2.Name" xml:space="preserve">
-    <value>btnCapNW2</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW2.Parent" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnCapNW1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCapNW1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 19</value>
-  </data>
-  <data name="btnCapNW1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 31</value>
-  </data>
-  <data name="btnCapNW1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW1.Name" xml:space="preserve">
-    <value>btnCapNW1</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW1.Parent" xml:space="preserve">
-    <value>groupCapNW</value>
-  </data>
-  <data name="&gt;&gt;btnCapNW1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnFixBodyStateReset.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="btnFixBodyStateReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnFixBodyStateReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 291</value>
-  </data>
-  <data name="btnFixBodyStateReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 23</value>
-  </data>
-  <data name="btnFixBodyStateReset.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="btnFixBodyStateReset.Text" xml:space="preserve">
-    <value>Fix Body State Reset</value>
-  </data>
-  <data name="&gt;&gt;btnFixBodyStateReset.Name" xml:space="preserve">
-    <value>btnFixBodyStateReset</value>
-  </data>
-  <data name="&gt;&gt;btnFixBodyStateReset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnFixBodyStateReset.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnFixBodyStateReset.ZOrder" xml:space="preserve">
+  <data name="btnEyes6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHands4.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnHands2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;btnEyes9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupCapVM.Name" xml:space="preserve">
+    <value>groupCapVM</value>
+  </data>
+  <data name="groupCapNW.Text" xml:space="preserve">
+    <value>Normal &amp;&amp; Wing Caps</value>
+  </data>
+  <data name="&gt;&gt;btnEyes9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnHands3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupCapNW.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;btnHands2.Name" xml:space="preserve">
+    <value>btnHands2</value>
+  </data>
+  <data name="btnEyes3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;btnEyes1.Name" xml:space="preserve">
+    <value>btnEyes1</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="updatesrefreshToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
+  </data>
+  <data name="&gt;&gt;groupCapVM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnFixBodyStateReset.Text" xml:space="preserve">
+    <value>Fix Body State Reset</value>
+  </data>
+  <data name="&gt;&gt;btnHands4.Parent" xml:space="preserve">
+    <value>groupHands</value>
+  </data>
+  <data name="&gt;&gt;btnEyes8.Parent" xml:space="preserve">
+    <value>groupEyes</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnEyes8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupCapVM.Text" xml:space="preserve">
+    <value>Vanish &amp;&amp; Metal Caps</value>
+  </data>
+  <data name="btnEyes9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 19</value>
+  </data>
+  <data name="btnHands5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEyes1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="btnCapVM4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnEyes4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnHands4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEyes6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="btnHands2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 19</value>
+  </data>
+  <data name="&gt;&gt;btnEyes3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnEyes9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupHands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFixBodyStateReset.Name" xml:space="preserve">
+    <value>btnFixBodyStateReset</value>
+  </data>
+  <data name="btnEyes4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="btnEyes2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 19</value>
+  </data>
+  <data name="btnEyes7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 19</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM3.Parent" xml:space="preserve">
+    <value>groupCapVM</value>
+  </data>
+  <data name="btnHands3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEyes7.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEyes6.Name" xml:space="preserve">
+    <value>btnEyes6</value>
+  </data>
+  <data name="&gt;&gt;groupHands.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCapVM1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="btnCapNW2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="groupHands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 60</value>
+  </data>
+  <data name="btnCapVM1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW1.Name" xml:space="preserve">
+    <value>btnCapNW1</value>
+  </data>
+  <data name="groupCapVM.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnEyes6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 19</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM2.Parent" xml:space="preserve">
+    <value>groupCapVM</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW2.Name" xml:space="preserve">
+    <value>btnCapNW2</value>
+  </data>
+  <data name="&gt;&gt;updatesToolStripMenuItem.Name" xml:space="preserve">
+    <value>updatesToolStripMenuItem</value>
+  </data>
+  <data name="btnCapVM3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="&gt;&gt;groupHands.Name" xml:space="preserve">
+    <value>groupHands</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="chAutoFixBodyStateReset.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnHands3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 19</value>
   </data>
-  <data name="chAutoFixBodyStateReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 321</value>
+  <data name="&gt;&gt;btnEyes4.Parent" xml:space="preserve">
+    <value>groupEyes</value>
   </data>
-  <data name="chAutoFixBodyStateReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 17</value>
+  <data name="&gt;&gt;btnHands5.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="chAutoFixBodyStateReset.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="&gt;&gt;btnHands1.Parent" xml:space="preserve">
+    <value>groupHands</value>
   </data>
-  <data name="chAutoFixBodyStateReset.Text" xml:space="preserve">
-    <value>Automatically Apply Body State Reset Fix</value>
+  <data name="&gt;&gt;btnEyes7.Name" xml:space="preserve">
+    <value>btnEyes7</value>
   </data>
-  <data name="&gt;&gt;chAutoFixBodyStateReset.Name" xml:space="preserve">
-    <value>chAutoFixBodyStateReset</value>
+  <data name="&gt;&gt;groupEyes.Name" xml:space="preserve">
+    <value>groupEyes</value>
   </data>
-  <data name="&gt;&gt;chAutoFixBodyStateReset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnEyes6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupCapNW.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCapVM1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnFixBodyStateReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEyes3.Name" xml:space="preserve">
+    <value>btnEyes3</value>
+  </data>
+  <data name="btnHands6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM4.Parent" xml:space="preserve">
+    <value>groupCapVM</value>
+  </data>
+  <data name="&gt;&gt;btnEyes8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnHands2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW4.Name" xml:space="preserve">
+    <value>btnCapNW4</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnHands6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;btnHands2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM4.Name" xml:space="preserve">
+    <value>btnCapVM4</value>
+  </data>
+  <data name="btnCapVM2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 19</value>
+  </data>
+  <data name="btnHands3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnEyes4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCapNW4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;groupCapNW.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnEyes8.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupEyes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 27</value>
+  </data>
+  <data name="&gt;&gt;btnHands5.Name" xml:space="preserve">
+    <value>btnHands5</value>
+  </data>
+  <data name="&gt;&gt;btnEyes5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnHands6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupEyes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupEyes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BodyStates</value>
+  </data>
+  <data name="updatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEyes1.Parent" xml:space="preserve">
+    <value>groupEyes</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="updatesrefreshToolStripMenuItem.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;btnEyes9.Parent" xml:space="preserve">
+    <value>groupEyes</value>
   </data>
   <data name="&gt;&gt;chAutoFixBodyStateReset.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;chAutoFixBodyStateReset.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btnHands4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 19</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="&gt;&gt;btnHands6.Parent" xml:space="preserve">
+    <value>groupHands</value>
+  </data>
+  <data name="btnFixBodyStateReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>309, 345</value>
+  <data name="&gt;&gt;btnEyes6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEyes3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupCapNW.Name" xml:space="preserve">
+    <value>groupCapNW</value>
+  </data>
+  <data name="&gt;&gt;btnEyes4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>mainForm</value>
+  </data>
+  <data name="chAutoFixBodyStateReset.Text" xml:space="preserve">
+    <value>Automatically Apply Body State Reset Fix</value>
+  </data>
+  <data name="btnEyes9.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnEyes2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupHands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 93</value>
+  </data>
+  <data name="&gt;&gt;btnEyes5.Name" xml:space="preserve">
+    <value>btnEyes5</value>
+  </data>
+  <data name="btnCapVM4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="btnEyes2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="btnCapNW2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnEyes1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="&gt;&gt;btnEyes6.Parent" xml:space="preserve">
+    <value>groupEyes</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM2.Name" xml:space="preserve">
+    <value>btnCapVM2</value>
+  </data>
+  <data name="&gt;&gt;btnHands3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chAutoFixBodyStateReset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnEyes4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW3.Parent" xml:space="preserve">
+    <value>groupCapNW</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupHands.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnCapNW2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnEyes1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCapNW4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="btnHands5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 19</value>
+  </data>
+  <data name="groupCapVM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 159</value>
+  </data>
+  <data name="&gt;&gt;btnHands6.Name" xml:space="preserve">
+    <value>btnHands6</value>
+  </data>
+  <data name="btnEyes3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupEyes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEyes3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="btnEyes1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="btnCapVM2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;btnEyes2.Name" xml:space="preserve">
+    <value>btnEyes2</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1219,25 +643,352 @@
         AP//AAD//4AB///AA///4Af///AP///4H/8=
 </value>
   </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>999, 999</value>
+  <data name="&gt;&gt;btnCapVM2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="&gt;&gt;btnEyes5.Parent" xml:space="preserve">
+    <value>groupEyes</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>BodyStates</value>
-  </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
-    <value>aboutToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;updatesToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>mainForm</value>
+  <data name="chAutoFixBodyStateReset.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;chAutoFixBodyStateReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;btnEyes8.Name" xml:space="preserve">
+    <value>btnEyes8</value>
+  </data>
+  <data name="btnHands4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnHands3.Parent" xml:space="preserve">
+    <value>groupHands</value>
+  </data>
+  <data name="btnEyes2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM1.Name" xml:space="preserve">
+    <value>btnCapVM1</value>
+  </data>
+  <data name="btnCapNW4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCapNW3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="btnCapNW3.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnHands1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM1.Parent" xml:space="preserve">
+    <value>groupCapVM</value>
+  </data>
+  <data name="groupEyes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 60</value>
+  </data>
+  <data name="groupHands.Text" xml:space="preserve">
+    <value>Hands</value>
+  </data>
+  <data name="btnCapNW1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="btnCapVM1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW4.Parent" xml:space="preserve">
+    <value>groupCapNW</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM3.Name" xml:space="preserve">
+    <value>btnCapVM3</value>
+  </data>
+  <data name="groupEyes.Text" xml:space="preserve">
+    <value>Eyes</value>
+  </data>
+  <data name="btnHands5.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnHands3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnHands2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupHands.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;updatesrefreshToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCapVM4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chAutoFixBodyStateReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 17</value>
+  </data>
+  <data name="&gt;&gt;btnEyes3.Parent" xml:space="preserve">
+    <value>groupEyes</value>
+  </data>
+  <data name="btnEyes8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 19</value>
+  </data>
+  <data name="btnCapNW1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="&gt;&gt;btnEyes7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEyes3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnHands2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHands5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chAutoFixBodyStateReset.Name" xml:space="preserve">
+    <value>chAutoFixBodyStateReset</value>
+  </data>
+  <data name="btnHands1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCapNW3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCapVM2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnEyes7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEyes2.Parent" xml:space="preserve">
+    <value>groupEyes</value>
+  </data>
+  <data name="&gt;&gt;btnHands5.Parent" xml:space="preserve">
+    <value>groupHands</value>
+  </data>
+  <data name="btnEyes5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnHands1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnHands3.Name" xml:space="preserve">
+    <value>btnHands3</value>
+  </data>
+  <data name="btnHands1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="btnEyes8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="groupCapNW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 159</value>
+  </data>
+  <data name="chAutoFixBodyStateReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 254</value>
+  </data>
+  <data name="chAutoFixBodyStateReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHands4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="btnHands6.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnHands1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 24</value>
+  </data>
+  <data name="groupCapVM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 60</value>
+  </data>
+  <data name="&gt;&gt;btnHands4.Name" xml:space="preserve">
+    <value>btnHands4</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="btnEyes7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="btnHands1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnEyes1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnHands6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCapVM4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="&gt;&gt;btnEyes5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupCapNW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupCapVM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCapNW1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW2.Parent" xml:space="preserve">
+    <value>groupCapNW</value>
+  </data>
+  <data name="&gt;&gt;btnEyes4.Name" xml:space="preserve">
+    <value>btnEyes4</value>
+  </data>
+  <data name="btnEyes7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCapNW2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 19</value>
+  </data>
+  <data name="&gt;&gt;groupCapVM.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupCapNW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 60</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnEyes1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnFixBodyStateReset.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnFixBodyStateReset.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCapNW4.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnEyes8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCapNW3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW1.Parent" xml:space="preserve">
+    <value>groupCapNW</value>
+  </data>
+  <data name="&gt;&gt;btnEyes7.Parent" xml:space="preserve">
+    <value>groupEyes</value>
+  </data>
+  <data name="btnCapVM3.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btnEyes5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="&gt;&gt;btnHands1.Name" xml:space="preserve">
+    <value>btnHands1</value>
+  </data>
+  <data name="btnEyes5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFixBodyStateReset.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnEyes9.Name" xml:space="preserve">
+    <value>btnEyes9</value>
+  </data>
+  <data name="chAutoFixBodyStateReset.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEyes2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnHands6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 19</value>
+  </data>
+  <data name="btnFixBodyStateReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 23</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;updatesrefreshToolStripMenuItem.Name" xml:space="preserve">
+    <value>updatesrefreshToolStripMenuItem</value>
+  </data>
+  <data name="btnCapNW1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFixBodyStateReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 225</value>
+  </data>
+  <data name="&gt;&gt;btnHands2.Parent" xml:space="preserve">
+    <value>groupHands</value>
+  </data>
+  <data name="&gt;&gt;btnCapVM4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCapVM3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="updatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Checking…</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnEyes5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEyes4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 31</value>
+  </data>
+  <data name="&gt;&gt;groupEyes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnEyes2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCapNW3.Name" xml:space="preserve">
+    <value>btnCapNW3</value>
+  </data>
+  <data name="&gt;&gt;btnHands4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

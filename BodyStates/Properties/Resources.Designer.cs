@@ -271,6 +271,24 @@ namespace BodyStates.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change Mario&apos;s body states (hand states, eye states, and cap states)..
+        /// </summary>
+        internal static string m64mm_desc {
+            get {
+                return ResourceManager.GetString("m64mm_desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open BodyStates.
+        /// </summary>
+        internal static string m64mm_open {
+            get {
+                return ResourceManager.GetString("m64mm_open", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap powerup1 {
@@ -307,6 +325,97 @@ namespace BodyStates.Properties {
             get {
                 object obj = ResourceManager.GetObject("powerup4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Checking….
+        /// </summary>
+        internal static string updates_checking_string {
+            get {
+                return ResourceManager.GetString("updates_checking_string", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updates_latest {
+            get {
+                object obj = ResourceManager.GetObject("updates_latest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Up-to-date.
+        /// </summary>
+        internal static string updates_latest_string {
+            get {
+                return ResourceManager.GetString("updates_latest_string", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updates_outdated {
+            get {
+                object obj = ResourceManager.GetObject("updates_outdated", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update available!.
+        /// </summary>
+        internal static string updates_outdated_string {
+            get {
+                return ResourceManager.GetString("updates_outdated_string", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updates_refresh {
+            get {
+                object obj = ResourceManager.GetObject("updates_refresh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updates_unknown {
+            get {
+                object obj = ResourceManager.GetObject("updates_unknown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not check if you have the latest version.
+        ///
+        ///Possible reasons:
+        ///• The add-on has no access to the internet.
+        ///• You&apos;ve checked for updates too frequently (can lead to temporarily exceeding GitHub&apos;s API rate limit).
+        ///
+        ///Would you like to open the latest release&apos;s page on GitHub in your browser?.
+        /// </summary>
+        internal static string updates_unknown_elaborate {
+            get {
+                return ResourceManager.GetString("updates_unknown_elaborate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Can&apos;t check for updates.
+        /// </summary>
+        internal static string updates_unknown_string {
+            get {
+                return ResourceManager.GetString("updates_unknown_string", resourceCulture);
             }
         }
     }

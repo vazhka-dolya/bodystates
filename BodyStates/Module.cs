@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Text;
 using M64MM.Additions;
-using M64MM.Utils;
 using BodyStates.Properties;
-using System.Diagnostics;
 
 namespace BodyStates
 {
@@ -15,7 +12,7 @@ namespace BodyStates
 
         public string SafeName => "BodyStates";
 
-        public string Description => "Change Mario's body states (hand states, eye states, and cap states).";
+        public string Description => Resources.m64mm_desc;
 
         public Image AddonIcon => Resources.bodystates_logo;
 
@@ -27,7 +24,7 @@ namespace BodyStates
         public List<ToolCommand> GetCommands()
         {
             List<ToolCommand> tcl = new List<ToolCommand>();
-            ToolCommand tcOpen = new ToolCommand("Open BodyStates");
+            ToolCommand tcOpen = new ToolCommand(Resources.m64mm_open);
             tcOpen.Summoned += (a, b) => openForm();
             tcl.Add(tcOpen);
             return tcl;

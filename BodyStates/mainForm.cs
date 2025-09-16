@@ -1,30 +1,160 @@
-﻿using System;
+﻿using BodyStates.Properties;
+using M64MM.Utils;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using M64MM.Utils;
 
 namespace BodyStates
 {
     public partial class mainForm : Form
     {
+        string IsLatestVersion = "Unknown";
+        string LatestVersion = "Unknown";
+        static string CreatorName = "vazhka-dolya";
+        static string AddonLinkName = "bodystates";
 
         static frmAbout about = new frmAbout();
+
         public mainForm()
         {
             InitializeComponent();
+
+            this.Load += mainForm_Load;
+            this.Text = $"BodyStates {ProductVersion}";
+
+            // Upscale button icons for higher DPI
+            // Because WinForms doesn't want to do it by itself
+            if (this.DeviceDpi > 96f)
+            {
+                foreach (var button in GetButtonsWithImages(this))
+                {
+                    Bitmap originalIcon = new Bitmap(button.Image);
+                    float scaleFactor = (float)(this.DeviceDpi - 96) / Math.Abs(96) + 1;
+                    int newWidth = (int)(originalIcon.Width * scaleFactor);
+                    int newHeight = (int)(originalIcon.Height * scaleFactor);
+
+                    Bitmap scaled = new Bitmap(newWidth, newHeight);
+                    using (Graphics g = Graphics.FromImage(scaled))
+                    {
+                        // NearestNeighbor looks ugly with DPIs that are
+                        // increments of 25% but not of 50% (e. g. 125%, 175% etc.),
+                        // and not scaling them up at all also looks bad,
+                        // so we'll set HighQualityBicubic for those.
+                        float remainder = scaleFactor % 1.0f;
+                        if (Math.Abs(remainder - 0.25f) < 0.01f || Math.Abs(remainder - 0.75f) < 0.01f)
+                            g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+                        else g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
+
+                        g.DrawImage(originalIcon, 0, 0, newWidth, newHeight);
+                    }
+
+                    button.Image = scaled;
+                }
+            }
+        }
+
+        private IEnumerable<Button> GetButtonsWithImages(Control parent)
+        {
+            foreach (Control control in parent.Controls)
+            {
+                if (control is Button button && button.Image != null)
+                    yield return button;
+
+                foreach (var childbutton in GetButtonsWithImages(control))
+                    yield return childbutton;
+            }
+        }
+
+        private async void mainForm_Load(object sender, EventArgs e)
+        {
+            await CheckForUpdates();
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            // Hide the add-on instead of closing it
+            e.Cancel = true;
+            Hide();
         }
 
         private byte[] GetOneByteAsArray(int address)
         {
             return new byte[] { Core.ReadBytes(Core.BaseAddress + address, 1)[0] };
+        }
+
+        private void UpdatesButtonPress()
+        {
+            switch (IsLatestVersion)
+            {
+                case "True":
+                    Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases");
+                    break;
+                case "False":
+                    Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases/latest");
+                    break;
+                default:
+                    DialogResult result = MessageBox.Show(
+                        Resources.updates_unknown_elaborate,
+                        Resources.updates_unknown_string,
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Question
+                    );
+
+                    if (result == DialogResult.Yes)
+                    {
+                        Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases/latest");
+                    }
+                    break;
+            }
+        }
+
+        private async Task CheckForUpdates()
+        {
+            updatesToolStripMenuItem.Image = Resources.updates_unknown;
+            updatesToolStripMenuItem.Text = Resources.updates_checking_string;
+
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    client.DefaultRequestHeaders.Add("User-Agent", "BodyStates")
+;
+                    var LatestResponse = await client.GetStringAsync($"https://api.github.com/repos/{CreatorName}/{AddonLinkName}/releases/latest");
+
+                    JObject json = JObject.Parse(LatestResponse);
+                    LatestVersion = (string)json["name"];
+
+                    if ("BodyStates v" + ProductVersion == LatestVersion)
+                        IsLatestVersion = "True";
+                    else IsLatestVersion = "False";
+                }
+            }
+            catch
+            {
+                IsLatestVersion = "Unknown";
+                LatestVersion = "Unknown";
+            }
+
+            switch (IsLatestVersion)
+            {
+                case "True":
+                    updatesToolStripMenuItem.Image = Resources.updates_latest;
+                    updatesToolStripMenuItem.Text = Resources.updates_latest_string;
+                    break;
+                case "False":
+                    updatesToolStripMenuItem.Image = Resources.updates_outdated;
+                    updatesToolStripMenuItem.Text = Resources.updates_outdated_string;
+                    break;
+                default:
+                    updatesToolStripMenuItem.Image = Resources.updates_unknown;
+                    updatesToolStripMenuItem.Text = Resources.updates_unknown_string;
+                    break;
+            }
         }
 
         private void CheckFixCheckBox()
@@ -81,8 +211,10 @@ namespace BodyStates
             byte[] CapNMState = GetOneByteAsArray(0x33B3B7); // Get the Normal/Wing cap state
             byte[] EyesState = GetOneByteAsArray(0x33B3B6); // Get the Eyes' state
             Core.WriteBytes(Core.BaseAddress + 0x33B3B5, data);
-            Core.WriteBytes(Core.BaseAddress + 0x33B3B6, EyesState); // Reapply the Eyes' state because they seem to reset for some reason
-            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, CapNMState); // Reapply the Normal/Wing cap state because changing hands/eyes also reset that for some reason
+
+            // Reapply the Eyes' and Normal/Wing cap states because they seem to reset for some reason
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B6, EyesState);
+            Core.WriteBytes(Core.BaseAddress + 0x33B3B7, CapNMState);
         }
 
         public void SetCapVMState(int value)
@@ -95,7 +227,7 @@ namespace BodyStates
         public void SetCapNWState(int value)
         {
             byte[] CapVMState = GetOneByteAsArray(0x33B174);
-            switch (CapVMState[0]) // If this number is not 0–6, then it's possible that trying to change the Normal/Wing cap will do nothing
+            switch (CapVMState[0]) // If CapVMState is not 0–6, then it's possible that trying to change the Normal/Wing cap will do nothing
             {
                 case 0:
                     break;
@@ -246,6 +378,16 @@ namespace BodyStates
         private void btnCapNW4_Click(object sender, EventArgs e)
         {
             SetCapNWState(3);
+        }
+
+        private async void updatesrefreshToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            await CheckForUpdates();
+        }
+
+        private void updatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpdatesButtonPress();
         }
     }
 }
