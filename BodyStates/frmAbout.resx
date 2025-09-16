@@ -117,37 +117,213 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lbAddonName.Text" xml:space="preserve">
-    <value>BodyStates</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbAddonName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lbAddonName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 12</value>
-  </data>
   <data name="lbAddonName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 24pt</value>
   </data>
-  <data name="&gt;&gt;bsLogo.Name" xml:space="preserve">
-    <value>bsLogo</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bsLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lbVer.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="lbAddonName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 12</value>
   </data>
   <data name="lbAddonName.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 37</value>
   </data>
-  <data name="&gt;&gt;lbLicense.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="lbAddonName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbAddonName.Text" xml:space="preserve">
+    <value>BodyStates</value>
+  </data>
+  <data name="&gt;&gt;lbAddonName.Name" xml:space="preserve">
+    <value>lbAddonName</value>
+  </data>
+  <data name="&gt;&gt;lbAddonName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbAddonName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbAddonName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbVer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbVer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lbVer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 49</value>
+  </data>
+  <data name="lbVer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
   </data>
   <data name="lbVer.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="lbVer.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="&gt;&gt;lbVer.Name" xml:space="preserve">
+    <value>lbVer</value>
+  </data>
+  <data name="&gt;&gt;lbVer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbVer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbVer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="htmlCredits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 146</value>
+  </data>
+  <data name="htmlCredits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 171</value>
+  </data>
+  <data name="htmlCredits.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="htmlCredits.Text" xml:space="preserve">
+    <value>&lt;p style="font-size:11px;font-family:'Microsoft Sans Serif'"&gt;By @DanilAstroid, aka vazhka-dolya (&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;br&gt;&lt;br&gt;Credits:&lt;br&gt;• @GlitchyPSI (&lt;a href="https://glitchypsi.xyz"&gt;his website&lt;/a&gt;) — a lot of help with how to&lt;br&gt;   make an add-on.&lt;br&gt;• • This add-on is also based on &lt;a href="https://github.com/projectcomet64/xstudio-mini"&gt;XStudio MiNi&lt;/a&gt;, which is&lt;br&gt;      made by him.&lt;br&gt;• @SMG1OFFICIAL (&lt;a href="https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg"&gt;YouTube&lt;/a&gt;) — kind of suggested me&lt;br&gt;   to make this add-on.&lt;br&gt;• @sm64rise (&lt;a href="https://www.youtube.com/channel/UCY09vjVz1t8QssTqeeRnjdg"&gt;YouTube&lt;/a&gt;) — original code for changing&lt;br&gt;body states.&lt;/p&gt;</value>
+  </data>
+  <data name="&gt;&gt;htmlCredits.Name" xml:space="preserve">
+    <value>htmlCredits</value>
+  </data>
+  <data name="&gt;&gt;htmlCredits.Type" xml:space="preserve">
+    <value>TheArtOfDev.HtmlRenderer.WinForms.HtmlLabel, HtmlRenderer.WinForms, Version=1.5.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;htmlCredits.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;htmlCredits.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 114</value>
+  </data>
+  <data name="lbLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 26</value>
+  </data>
+  <data name="lbLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbLicense.Text" xml:space="preserve">
+    <value>Licensed under the Do What The
+Fuck You Want To Public License.</value>
+  </data>
+  <data name="&gt;&gt;lbLicense.Name" xml:space="preserve">
+    <value>lbLicense</value>
+  </data>
+  <data name="&gt;&gt;lbLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbLicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbLicense.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bsLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="bsLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 128</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bsLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="bsLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;bsLogo.Name" xml:space="preserve">
+    <value>bsLogo</value>
+  </data>
+  <data name="&gt;&gt;bsLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bsLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bsLogo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbVerNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbVerNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lbVerNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 49</value>
+  </data>
+  <data name="lbVerNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="lbVerNum.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbVerNum.Text" xml:space="preserve">
+    <value>1.0.0</value>
+  </data>
+  <data name="&gt;&gt;lbVerNum.Name" xml:space="preserve">
+    <value>lbVerNum</value>
+  </data>
+  <data name="&gt;&gt;lbVerNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbVerNum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbVerNum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>332, 329</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -225,189 +401,13 @@
         AP//AAD//4AB///AA///4Af///AP///4H/8=
 </value>
   </data>
-  <data name="htmlCredits.Text" xml:space="preserve">
-    <value>&lt;p style="font-size:11px;font-family:'Microsoft Sans Serif'"&gt;By @DanilAstroid, aka vazhka-dolya (&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;br&gt;&lt;br&gt;Credits:&lt;br&gt;• @GlitchyPSI (&lt;a href="https://glitchypsi.xyz"&gt;his website&lt;/a&gt;) — a lot of help with how to&lt;br&gt;   make an add-on.&lt;br&gt;• • This add-on is also based on &lt;a href="https://github.com/projectcomet64/xstudio-mini"&gt;XStudio MiNi&lt;/a&gt;, which is&lt;br&gt;      made by him.&lt;br&gt;• @SMG1OFFICIAL (&lt;a href="https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg"&gt;YouTube&lt;/a&gt;) — kind of suggested me&lt;br&gt;   to make this add-on.&lt;br&gt;• @sm64rise (&lt;a href="https://www.youtube.com/channel/UCY09vjVz1t8QssTqeeRnjdg"&gt;YouTube&lt;/a&gt;) — original code for changing&lt;br&gt;body states.&lt;/p&gt;</value>
-  </data>
-  <data name="lbVerNum.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="htmlCredits.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 171</value>
-  </data>
-  <data name="&gt;&gt;lbAddonName.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="lbVer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 49</value>
-  </data>
-  <data name="&gt;&gt;lbLicense.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="bsLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 128</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="lbVer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="lbVerNum.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="lbVerNum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>232, 49</value>
-  </data>
-  <data name="&gt;&gt;lbAddonName.Name" xml:space="preserve">
-    <value>lbAddonName</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbVer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 20</value>
-  </data>
-  <data name="lbAddonName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lbLicense.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbLicense.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>About BodyStates</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbLicense.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 114</value>
-  </data>
-  <data name="lbVerNum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="&gt;&gt;lbVer.Name" xml:space="preserve">
-    <value>lbVer</value>
-  </data>
-  <data name="lbAddonName.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lbVerNum.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;htmlCredits.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="bsLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;bsLogo.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;htmlCredits.Type" xml:space="preserve">
-    <value>TheArtOfDev.HtmlRenderer.WinForms.HtmlLabel, HtmlRenderer.WinForms, Version=1.5.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>332, 329</value>
-  </data>
-  <data name="lbLicense.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 26</value>
-  </data>
-  <data name="&gt;&gt;lbVerNum.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;lbLicense.Name" xml:space="preserve">
-    <value>lbLicense</value>
-  </data>
-  <data name="&gt;&gt;lbVerNum.Name" xml:space="preserve">
-    <value>lbVerNum</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;htmlCredits.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbVer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bsLogo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbAddonName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbVer.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bsLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmAbout</value>
   </data>
-  <data name="&gt;&gt;lbVerNum.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="htmlCredits.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="lbLicense.Text" xml:space="preserve">
-    <value>Licensed under the Do What The
-Fuck You Want To Public License.</value>
-  </data>
-  <data name="lbVer.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbVer.Text" xml:space="preserve">
-    <value>Version:</value>
-  </data>
-  <data name="&gt;&gt;bsLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;lbAddonName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lbVerNum.Text" xml:space="preserve">
-    <value>1.0.0</value>
-  </data>
-  <data name="&gt;&gt;htmlCredits.Name" xml:space="preserve">
-    <value>htmlCredits</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="lbVerNum.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="htmlCredits.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 146</value>
-  </data>
-  <data name="lbLicense.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
