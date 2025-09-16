@@ -2,7 +2,7 @@
 # BodyStates
 This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM) that allows you to easily change the body states of eyes,[^1] hands, and caps.
 <p align="center">
-  <img src="https://github.com/vazhka-dolya/bodystates/blob/main/GitHubImages/ReadmeImage3_eng.png" width="666"/>
+  <img src="https://github.com/vazhka-dolya/bodystates/blob/main/GitHubImages/ReadmeImage4_eng.png"/>
 </p>
 
 # Installing and using
@@ -11,7 +11,7 @@ This is a simple add-on for [Mario 64 Movie Maker 3](https://github.com/projectc
 3. Extract the downloaded archive's contents[^2] into the root folder[^3] of M64MM3. If it prompts you to replace files, then do it.
 4. That's all.
 
-If the add-on refuses to work for you: launch the game, go to **Options** > **Settings…** > **Config: (ROM name)**[^4] > **Recompiler**, and make sure **Start changed** is enabled.
+If the add-on refuses to work for you: launch the game, go to **Options** > **Settings…** > collapse **Config: (ROM name)**[^4] > **Recompiler**, and make sure **Start changed** is enabled.
 
 # Building prerequisites
 <details>
@@ -29,6 +29,7 @@ If the add-on refuses to work for you: launch the game, go to **Options** > **Se
 - @GlitchyPSI ([his website](https://glitchypsi.xyz)) — a lot of help with how to make an add-on.
   - This add-on is also based on [XStudio MiNi](https://github.com/projectcomet64/xstudio-mini), which is made by him.
 - @SMG1OFFICIAL ([YouTube](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg)) — kind of suggested me to make this add-on.
+- @sm64rise ([YouTube](https://www.youtube.com/channel/UCY09vjVz1t8QssTqeeRnjdg)) — original code for changing body states.
 ### “If I use BodyStates for my work, do I have to credit you?”
 Credit is highly appreciated, but completely optional!
 [^1]: Not the eyes' textures themselves, but what eye texture is being displayed. If you want to use custom eye (and not only eye) textures, check out my other project, **[katarakta](https://github.com/vazhka-dolya/katarakta)**!
