@@ -37,6 +37,6 @@ If the add-on refuses to work for you: launch the game, go to **Options** > **Se
 Credit is highly appreciated, but completely optional!
 
 [^1]: Not the eyes' textures themselves, but what eye texture is being displayed. If you want to use custom eye (and not only eye) textures, check out my other project, **[katarakta](https://github.com/vazhka-dolya/katarakta)**!
-[^2]: That means *all* the contents, including the `deps` folder. If it crashes when opening the **About** window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in M64MM's `deps` folder.
+[^2]: That means *all* the contents, including the `deps` folder. If it crashes when opening the **About** window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in *M64MM*'s `deps` folder.
 [^3]: That's the same folder where `M64MM.exe` is located.
 [^4]: The ROM name is usually `SUPER MARIO 64`, but it may be different if it's a ROM hack.
